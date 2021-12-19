@@ -21,8 +21,8 @@
 - Longest Common Substring
 - Longest Common Subsequence
 
-A folder is made in the name of each of the above algorithms in ./src.
-Tests are included in each of these folders along with the code.
+Code for all the above algorithms are written in ./src.
+Tests for the respective algorithms can be found in ./\_\_tests\_\_.
 
 ## How to run:
 
