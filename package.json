@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Algorithms in javascript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pruthvianveshmuga/algorithms/issues"
   },
-  "homepage": "https://github.com/pruthvianveshmuga/algorithms#readme"
+  "homepage": "https://github.com/pruthvianveshmuga/algorithms#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
